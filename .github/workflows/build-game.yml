@@ -15,8 +15,7 @@ jobs:
         include:
         - target: windows
         - target: macos
-    runs-on: ubuntu-latest
-    - ${{ matrix.target }}
+    runs-on: ubuntu-lates
     defaults:
       run:
         shell: bash
